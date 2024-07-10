@@ -1,1 +1,37 @@
+Architecture Design and Setup
 
+Components:
+Data Ingestion
+Data Storage
+Data Processing
+Data Aggregation
+Data Visualization
+
+Detailed Breakdown:
+Data Ingestion:
+
+AWS S3: Store raw data files.
+AWS Kinesis Firehose: Stream real-time data.
+AWS Data Pipeline: Orchestrate batch data ingestion.
+
+Data Storage:
+
+AWS S3: For raw and processed data.
+AWS Redshift: For structured and semi-structured data.
+AWS RDS (PostgreSQL): For transactional data.
+
+Data Processing:
+
+AWS Glue: Serverless ETL service.
+AWS EMR: For large-scale data processing using Apache Spark/Hadoop.
+AWS Lambda: For real-time processing and simple transformations.
+
+Data Aggregation:
+
+AWS Athena: Query data directly from S3 using SQL.
+AWS Redshift Spectrum: Query data in S3 without moving it to Redshift.
+
+Data Visualization:
+
+AWS QuickSight: Business intelligence service for creating dashboards.
+Tableau/Power BI: For advanced visualization needs.
