@@ -1,4 +1,4 @@
-# data-engineering
+# Data-Engineering
 
 ## Overview
 This project provides a high-level architecture for a data engineering platform designed to handle various data sizes ranging from 10MB to 100GB. The platform includes components for data ingestion, storage, processing, aggregation, and visualization using AWS services.
