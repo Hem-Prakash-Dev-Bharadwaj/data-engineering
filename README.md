@@ -7,21 +7,21 @@ This project provides a high-level architecture for a data engineering platform 
 
              
              |       Data Sources      |
-             |-------------------------|
+             |                         |
              |  APIs, Databases, Files |
              
                         |
                         v
              
              |      Data Ingestion     |
-             |-------------------------|
+             |                         |
              | Kafka, NiFi, Kinesis    |
              
                         |
                         v
              
              |       Data Storage      |
-             |-------------------------|
+             |                         |
              | Data Lake (S3, GCS)     |
              | Data Warehouse (Redshift|
              | BigQuery, Snowflake)    |
@@ -30,7 +30,7 @@ This project provides a high-level architecture for a data engineering platform 
                         v
             
              |     Data Processing     |
-             |-------------------------|
+             |                         |
              | Spark, Flink, Kafka     |
              |    Streams, Storm       |
              
@@ -38,14 +38,14 @@ This project provides a high-level architecture for a data engineering platform 
                         v
              
              |    Data Aggregation     |
-             |-------------------------|
+             |                         |
              |   Airflow, Glue, dbt    |
              
                         |
                         v
              
              |    Data Visualization   |
-             |-------------------------|
+             |                         |
              | Tableau, Power BI,      |
              | Looker, Grafana         |
              
